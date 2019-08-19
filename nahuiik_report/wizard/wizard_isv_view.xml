@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="wizard_isv_form_view">
+        <field name="name">wizard.isv.report.form</field>
+        <field name="model">nahuiik_report.wizard_isv_report</field>
+        <field name="arch" type="xml">
+            <form string="ISV Report">
+                <group col="4">
+                    <field name="fiscal_credit"/>
+                    <field name="pos"/>
+                    <field name="month" required="1"/>
+                </group>
+                <footer>
+                    <button name="print_report" type="object"
+                            string="Print" class="oe_highlight" context="{'xls_export':0}"/>
+                    <button name="print_report" type="object"
+                            string="Excel" class="oe_highlight" context="{'xls_export':1}"/>
+                    <button special="cancel" string="Cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <act_window 
+        id="wizard_isv_report_action"
+        name="ISV Reports"
+        res_model="nahuiik_report.wizard_isv_report"
+        view_mode="form"
+        target="new"
+    />
+
+    <menuitem  
+        id="isv_report_menuitem"  
+        name="ISV Reports"  
+        action="wizard_isv_report_action" 
+        parent="menu_nahuiik_reports"
+        sequence="3" />
+
+</odoo>

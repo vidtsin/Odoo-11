@@ -1,0 +1,1164 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* nahuiik_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-02 22:52+0000\n"
+"PO-Revision-Date: 2019-08-02 22:52+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_total_numero_facturas
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_total_numero_facturas
+msgid "# Facturas"
+msgstr "# Facturas"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_facturas_exentas
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_facturas_exentas
+msgid "# Facturas Exentas"
+msgstr "# Facturas Exentas"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_facturas_gravadas
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_facturas_gravadas
+msgid "# Facturas Gravadas"
+msgstr "# Facturas Gravadas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:109
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "(-) Previous Period Tax Credit"
+msgstr "(-) Credito Fiscal Periodo Anterior"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:112
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "(-) Tax Withheld POS"
+msgstr "(-) Impuesto Retenido POS"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>    \n"
+"                             <span>Expresado en Lempiras</span>\n"
+"\n"
+"                           </strong>"
+msgstr "<strong>    \n"
+"                             <span>Expresado en Lempiras</span>\n"
+"\n"
+"                           </strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+msgid "<strong>    \n"
+"                             <span>Libro de Compras </span>                \n"
+"                           </strong>"
+msgstr "<strong>    \n"
+"                             <span>Libro de Compras </span>                \n"
+"                           </strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>    \n"
+"                             <span>Libro de Ventas</span>                \n"
+"                           </strong>"
+msgstr "<strong>    \n"
+"                             <span>Libro de Ventas</span>                \n"
+"                           </strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Cliente</strong>"
+msgstr "<strong>Cliente</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+msgid "<strong>Compras Gravadas:</strong>"
+msgstr "<strong>Compras Gravadas:</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Código CAI</strong>"
+msgstr "<strong>Código CAI</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Fecha Final:</strong>"
+msgstr "<strong>Fecha Final:</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Fecha de Inicio:</strong>"
+msgstr "<strong>Fecha de Inicio:</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Fecha</strong>"
+msgstr "<strong>Fecha</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Impuesto</strong>"
+msgstr "<strong>Impuesto</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Número de Factura</strong>"
+msgstr "<strong>Número de Factura</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+msgid "<strong>Proveedor</strong>"
+msgstr "<strong>Proveedor</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>RTN</strong>"
+msgstr "<strong>RTN</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+msgid "<strong>Sales Tax Report</strong>"
+msgstr "<strong>Reporte de Impuesto Sobre Ventas</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Sub Total</strong>"
+msgstr "<strong>Sub Total</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+msgid "<strong>Total Compras:</strong>"
+msgstr "<strong>Total Compras:</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+msgid "<strong>Total Tax to be Paid</strong>"
+msgstr "<strong>Total Impuesto a Pagar</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Total Ventas:</strong>"
+msgstr "<strong>Total Ventas:</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Total de Impuestos:</strong>"
+msgstr "<strong>Total de Impuestos:</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_compras_invoice_view
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Total</strong>"
+msgstr "<strong>Total</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Ventas Exentas:</strong>"
+msgstr "<strong>Ventas Exentas:</strong>"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.report_libro_ventas_invoice_view
+msgid "<strong>Ventas Gravadas:</strong>"
+msgstr "<strong>Ventas Gravadas:</strong>"
+
+#. module: nahuiik_report
+#: selection:libro.compras.invoice,state:0
+#: selection:libro.ventas.invoice,state:0
+msgid "Abierta"
+msgstr "Abierta"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_check_open
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_check_open
+msgid "Abiertas"
+msgstr "Abiertas"
+
+#. module: nahuiik_report
+#: selection:libro.ventas.invoice,state:0
+msgid "Anulada"
+msgstr "Anulada"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_check_cancel
+msgid "Anuladas"
+msgstr "Anuladas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:79
+#: code:addons/nahuiik_report/models/libro_ventas.py:88
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "April"
+msgstr "Abril"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:87
+#: code:addons/nahuiik_report/models/libro_ventas.py:96
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "August"
+msgstr "Agosto"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_check_draft
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_check_draft
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+#: selection:libro.compras.forecast,state:0
+#: selection:libro.compras.invoice,state:0
+#: selection:libro.ventas.forecast,state:0
+#: selection:libro.ventas.invoice,state:0
+msgid "Borrador"
+msgstr "Borrador"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:70
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:73
+#: model:ir.model.fields,field_description:nahuiik_report.field_account_invoice_cai_shot_compras
+#: model:ir.model.fields,field_description:nahuiik_report.field_res_partner_cai_shot_compras
+#: model:ir.model.fields,field_description:nahuiik_report.field_res_users_cai_shot_compras
+#: model:ir.ui.menu,name:nahuiik_report.menu_nahuiik_cai
+#, python-format
+msgid "CAI"
+msgstr "CAI"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.res_partner_cai_compras_view_inh
+msgid "CAI de Compras"
+msgstr "CAI de Compras"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.wizard_isv_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: nahuiik_report
+#: selection:libro.compras.invoice,state:0
+msgid "Cancelada"
+msgstr "Cancelada"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:71
+#, python-format
+msgid "Client"
+msgstr "Cliente"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_create_uid
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_create_uid
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_create_uid
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_create_uid
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_create_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_create_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_create_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_create_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:67
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:70
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:95
+#: code:addons/nahuiik_report/models/libro_ventas.py:104
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "December"
+msgstr "Diciembre"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_name
+msgid "Descripción"
+msgstr "Descripción"
+
+#. module: nahuiik_report
+#: model:ir.actions.act_window,name:nahuiik_report.action_libro_compras_invoices
+#: model:ir.actions.act_window,name:nahuiik_report.action_libro_ventas_invoices
+msgid "Detalle de Facturas"
+msgstr "Detalle de Facturas"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_isv_report_view_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_isv_report_xls_xlsx_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_compras_invoice_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_libro_compras_invoice_xls_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_libro_ventas_invoice_xls_display_name
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_ventas_invoice_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_partner_id
+msgid "Empresa"
+msgstr "Empresa"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:55
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:55
+#, python-format
+msgid "End Date"
+msgstr "Fecha Fin"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/account_invoice.py:28
+#, python-format
+msgid "Error!"
+msgstr "Error!"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:102
+#: code:addons/nahuiik_report/models/libro_ventas.py:111
+#, python-format
+msgid "Error!:: End date is lower than start date."
+msgstr "Error!:: La fecha de finalización es inferior a la fecha de inicio."
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:110
+#: code:addons/nahuiik_report/models/libro_ventas.py:119
+#, python-format
+msgid "Error!:: There is no any filter checked."
+msgstr "Error!:: No hay ningún filtro comprobado."
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_check_proforma
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_check_proforma
+msgid "Esperando Aprobación"
+msgstr "Esperando Aprobación"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_state
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_state
+msgid "Estado"
+msgstr "Estado"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.wizard_isv_form_view
+msgid "Excel"
+msgstr "Excel"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_account_invoice_excluir_compra
+msgid "Excluir Compras"
+msgstr "Excluir Compras"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:73
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Exonerated Sale"
+msgstr "Ventas Exoneradas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:50
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:50
+#, python-format
+msgid "Expressed in Lempiras of Honduras"
+msgstr "Expresado en Lempiras de Honduras"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+msgid "Facturas"
+msgstr "Facturas"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_regimen
+msgid "Facturas con Regimen"
+msgstr "Facturas con Regimen"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_libro_ventas_invoice
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_out_invoice_ids
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_out_invoice_ids
+msgid "Facturas de Clientes"
+msgstr "Facturas de Clientes"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_libro_compras_invoice
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+msgid "Facturas de Compras"
+msgstr "Facturas de Compras"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+msgid "Facturas de Ventas"
+msgstr "Facturas de Ventas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:75
+#: code:addons/nahuiik_report/models/libro_ventas.py:84
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "February"
+msgstr "Febrero"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_end_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_end_date
+msgid "Fecha Final"
+msgstr "Fecha Final"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_invoice_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_invoice_date
+msgid "Fecha de Factura"
+msgstr "Fecha de Factura"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_start_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_start_date
+msgid "Fecha de Inicio"
+msgstr "Fecha de Inicio"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_date_due
+msgid "Fecha de Vencimiento"
+msgstr "Fecha de Vencimiento"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_res_partner_fecha_expiracion
+#: model:ir.model.fields,field_description:nahuiik_report.field_res_users_fecha_expiracion
+msgid "Fecha de expiración"
+msgstr "Fecha de expiración"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+msgid "Filters"
+msgstr "Filtros"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+#: selection:libro.compras.forecast,state:0
+#: selection:libro.ventas.forecast,state:0
+msgid "Finalizado"
+msgstr "Finalizado"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+msgid "Flujo de Efectivo"
+msgstr "Flujo de Efectivo"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_treasury_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_treasury_id
+msgid "Forecast"
+msgstr "Forecast"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_isv_report_view_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_isv_report_xls_xlsx_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_compras_invoice_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_libro_compras_invoice_xls_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_libro_ventas_invoice_xls_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_ventas_invoice_id
+msgid "ID"
+msgstr "ID"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:20
+#, python-format
+msgid "ISV"
+msgstr "ISV"
+
+#. module: nahuiik_report
+#: model:ir.actions.report,name:nahuiik_report.report_isv
+#: model:ir.ui.view,arch_db:nahuiik_report.wizard_isv_form_view
+msgid "ISV Report"
+msgstr "Reporte ISV"
+
+#. module: nahuiik_report
+#: model:ir.actions.report,name:nahuiik_report.isv_report_xls
+msgid "ISV Report XLS"
+msgstr "Reporte ISV XLS"
+
+#. module: nahuiik_report
+#: model:ir.actions.act_window,name:nahuiik_report.wizard_isv_report_action
+#: model:ir.ui.menu,name:nahuiik_report.isv_report_menuitem
+msgid "ISV Reports"
+msgstr "Reporte ISV"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_factura_id
+msgid "Id de factura"
+msgstr "Id de factura"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:82
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Importation"
+msgstr "Importación"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:80
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Importation Summary"
+msgstr "Resumen de las Importaciones"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_isv
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_isv
+msgid "Impuesto"
+msgstr "Impuesto"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_total_impuesto
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_total_impuesto
+msgid "Impuestos"
+msgstr "Impuestos"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:71
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:74
+#, python-format
+msgid "Invoice Number"
+msgstr "Número de Factura"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_invoice_tree_view1
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_invoice_tree_view1
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_account_invoice_is_importation
+msgid "Is Importation"
+msgstr "Es Importación"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:73
+#: code:addons/nahuiik_report/models/libro_ventas.py:82
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "January"
+msgstr "Enero"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:85
+#: code:addons/nahuiik_report/models/libro_ventas.py:94
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "July"
+msgstr "Julio"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:83
+#: code:addons/nahuiik_report/models/libro_ventas.py:92
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "June"
+msgstr "Junio"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/account_invoice.py:28
+#, python-format
+msgid "La fecha de expiración del CAI  es inferior a la fecha de factura"
+msgstr "La fecha de expiración del CAI  es inferior a la fecha de factura"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_isv_report_view___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_isv_report_xls_xlsx___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_compras_invoice___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_libro_compras_invoice_xls___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_libro_ventas_invoice_xls___last_update
+#: model:ir.model.fields,field_description:nahuiik_report.field_report_nahuiik_report_report_ventas_invoice___last_update
+msgid "Last Modified on"
+msgstr "Última Modificación en"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_write_uid
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_write_uid
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_write_uid
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_write_uid
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_write_uid
+msgid "Last Updated by"
+msgstr "Última Actualización por"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_write_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_write_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_write_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_write_date
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_write_date
+msgid "Last Updated on"
+msgstr "Última Actualización el"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:15
+#, python-format
+msgid "Libro compras "
+msgstr "Libro compras "
+
+#. module: nahuiik_report
+#: model:ir.actions.act_window,help:nahuiik_report.action_libro_compras_forecast_form
+#: model:ir.actions.act_window,name:nahuiik_report.action_libro_compras_forecast_form
+#: model:ir.actions.report,name:nahuiik_report.report_nahuiik_compras
+#: model:ir.model,name:nahuiik_report.model_libro_compras_forecast
+#: model:ir.ui.menu,name:nahuiik_report.menu_nahuiik_libro_compras
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+msgid "Libro de Compras"
+msgstr "Libro de Compras"
+
+#. module: nahuiik_report
+#: model:res.groups,name:nahuiik_report.group_manager_compras
+msgid "Libro de Compras / Manager"
+msgstr "Libro de Compras / Manager"
+
+#. module: nahuiik_report
+#: model:res.groups,name:nahuiik_report.group_user_compras
+msgid "Libro de Compras / Solo Lectura"
+msgstr "Libro de Compras / Solo Lectura"
+
+#. module: nahuiik_report
+#: model:ir.actions.report,name:nahuiik_report.report_nahuiik_compras_xls
+msgid "Libro de Compras XLS"
+msgstr "Libro de Compras XLS"
+
+#. module: nahuiik_report
+#: model:ir.actions.act_window,help:nahuiik_report.action_libro_compras_invoices
+#: model:ir.actions.act_window,help:nahuiik_report.action_libro_ventas_forecast_form
+#: model:ir.actions.act_window,help:nahuiik_report.action_libro_ventas_invoices
+#: model:ir.actions.act_window,name:nahuiik_report.action_libro_ventas_forecast_form
+#: model:ir.actions.report,name:nahuiik_report.report_nahuiik_ventas
+#: model:ir.model,name:nahuiik_report.model_libro_ventas_forecast
+#: model:ir.ui.menu,name:nahuiik_report.menu_nahuiik_libro_ventas
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+msgid "Libro de Ventas"
+msgstr "Libro de Ventas"
+
+#. module: nahuiik_report
+#: model:res.groups,name:nahuiik_report.group_manager
+msgid "Libro de Ventas / Manager"
+msgstr "Libro de Ventas / Manager"
+
+#. module: nahuiik_report
+#: model:res.groups,name:nahuiik_report.group_user
+msgid "Libro de Ventas / Solo Lectura"
+msgstr "Libro de Ventas / Solo Lectura"
+
+#. module: nahuiik_report
+#: model:ir.actions.report,name:nahuiik_report.report_nahuiik_ventas_xls
+msgid "Libro de Ventas XLS"
+msgstr "Libro de Ventas XLS"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:15
+#, python-format
+msgid "Libro ventas "
+msgstr "Libro ventas "
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+msgid "Los filtros a continuación, se utilizan para obtener\n"
+"                            el estado y el monto de los documentos:"
+msgstr "Los filtros a continuación, se utilizan para obtener\n"
+"                            el estado y el monto de los documentos:"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:77
+#: code:addons/nahuiik_report/models/libro_ventas.py:86
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "March"
+msgstr "Marzo"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:81
+#: code:addons/nahuiik_report/models/libro_ventas.py:90
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "May"
+msgstr "Mayo"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_currency_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_currency_id
+msgid "Moneda"
+msgstr "Moneda"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_month
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_month
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_month
+msgid "Month"
+msgstr "Mes"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+msgid "Month:"
+msgstr "Mes:"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:64
+#, python-format
+msgid "Month: %s %s"
+msgstr "Mes: %s %s"
+
+#. module: nahuiik_report
+#: model:ir.ui.menu,name:nahuiik_report.menu_main_nahuiik
+msgid "Nahuiik"
+msgstr "Nahuiik"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+msgid "Net Purchase"
+msgstr "Compra Neta"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:95
+#, python-format
+msgid "Net Purchase %s"
+msgstr "Compra Neta %s"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+msgid "Net Sale"
+msgstr "Venta Neta"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:67
+#, python-format
+msgid "Net Sale %s"
+msgstr "Venta Neta %s"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_sub_total
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_sub_total
+msgid "Neto Gravado"
+msgstr "Neto Gravado"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_invoice_id
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_invoice_id
+msgid "No. Documento"
+msgstr "No. Documento"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_numero_factura
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_numero_factura
+msgid "No. Factura"
+msgstr "No. Factura"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:93
+#: code:addons/nahuiik_report/models/libro_ventas.py:102
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "November"
+msgstr "Noviembre"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+msgid "Obtener datos"
+msgstr "Obtener datos"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:91
+#: code:addons/nahuiik_report/models/libro_ventas.py:100
+#, python-format
+msgid "October"
+msgstr "Octubre"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_pos
+msgid "POS Retained Tax"
+msgstr "Imp. Retenido POS"
+
+#. module: nahuiik_report
+#: selection:libro.compras.invoice,state:0
+#: selection:libro.ventas.invoice,state:0
+msgid "Pagada"
+msgstr "Pagada"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_check_done
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_check_done
+msgid "Pagadas"
+msgstr "Pagadas"
+
+#. module: nahuiik_report
+#: model:ir.module.category,name:nahuiik_report.module_category_nahuiik
+msgid "Permisos de Acceso Nahuiik"
+msgstr "Permisos de Acceso Nahuiik"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_nahuiik_report_wizard_isv_report_fiscal_credit
+msgid "Previous Period Tax Credit"
+msgstr "Credito Fiscal Periodo Anterior"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.wizard_isv_form_view
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: nahuiik_report
+#: selection:libro.compras.invoice,state:0
+#: selection:libro.ventas.invoice,state:0
+msgid "Pro-forma"
+msgstr "Pro-forma"
+
+#. module: nahuiik_report
+#: selection:libro.compras.forecast,state:0
+#: selection:libro.ventas.forecast,state:0
+msgid "Progreso"
+msgstr "Progreso"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_partner_id
+msgid "Proveedor"
+msgstr "Proveedor"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.view_graph_sales_book
+msgid "Prueba"
+msgstr "Prueba"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:93
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Purchase Summary"
+msgstr "Resumen de las Compras"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:69
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:72
+#, python-format
+msgid "RTN"
+msgstr "RTN"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_form_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_form_view
+msgid "Rango de Fechas"
+msgstr "Rango de Fechas"
+
+#. module: nahuiik_report
+#: model:ir.module.category,description:nahuiik_report.module_category_nahuiik
+#: model:ir.ui.menu,name:nahuiik_report.menu_nahuiik_reports
+msgid "Reportes"
+msgstr "Reportes"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_invoice_graph
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_invoice_graph
+msgid "Resumen"
+msgstr "Resumen"
+
+#. module: nahuiik_report
+#: model:ir.ui.menu,name:nahuiik_report.menu_nahuiik_sar
+msgid "SAR"
+msgstr "SAR"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:65
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Sales Summary"
+msgstr "Resumen de las Ventas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:63
+#, python-format
+msgid "Sales Tax Report"
+msgstr "Reporte de Impuesto Sobre Ventas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:49
+#, python-format
+msgid "Sales book"
+msgstr "Libro de Ventas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/models/libro_compras.py:89
+#: code:addons/nahuiik_report/models/libro_ventas.py:98
+#: selection:nahuiik_report.wizard_isv_report,month:0
+#, python-format
+msgid "September"
+msgstr "Septiembre"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:49
+#, python-format
+msgid "Shopping book"
+msgstr "Libro de Compras"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:53
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:53
+#, python-format
+msgid "Start Date"
+msgstr "Fecha Inicio"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_state
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_state
+msgid "State"
+msgstr "Estado"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_subtotal
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_subtotal
+msgid "SubTotal"
+msgstr "SubTotal"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:72
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:75
+#, python-format
+msgid "Subt Total"
+msgstr "Subt Total"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:68
+#, python-format
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:60
+#, python-format
+msgid "Taxable Purchases"
+msgstr "Compras Gravadas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:60
+#, python-format
+msgid "Taxable sales"
+msgstr "Ventas sujetas a impuestos"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:85
+#: code:addons/nahuiik_report/report/isv_report_xls.py:98
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Taxed Purchase 15%"
+msgstr "Compra Gravada 15%"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:70
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Taxed Sale 15%"
+msgstr "Venta Gravada 15%"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:73
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:76
+#, python-format
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_tipo_factura
+msgid "Tipo de Factura"
+msgstr "Tipo de Factura"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:74
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:77
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_invoice_tree_view1
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_invoice_tree_view1
+#, python-format
+msgid "Total"
+msgstr "Total"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_total_exento
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_total_exento
+msgid "Total Facturas Exentas"
+msgstr "Total Facturas Exentas"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_total_gravado
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_total_gravado
+msgid "Total Gravado"
+msgstr "Total Gravado"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:89
+#: code:addons/nahuiik_report/report/isv_report_xls.py:102
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Total Purchase"
+msgstr "Compra Total"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:58
+#, python-format
+msgid "Total Purchases"
+msgstr "Total Compras"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:76
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Total Sale"
+msgstr "Venta Total"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:115
+#, python-format
+msgid "Total Tax to be Paid"
+msgstr "Total Impuesto a Pagar"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_total_incoming
+msgid "Total de Compras"
+msgstr "Total de Compras"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_invoice_total_amount
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_invoice_total_amount
+msgid "Total de Factura"
+msgstr "Total de Factura"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_total_incoming
+msgid "Total de Ventas"
+msgstr "Total de Ventas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:58
+#, python-format
+msgid "Total sales"
+msgstr "Total ventas"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_purchase_xls.py:63
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:66
+#, python-format
+msgid "Total taxes"
+msgstr "Total impuestos"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/isv_report_xls.py:106
+#: model:ir.ui.view,arch_db:nahuiik_report.isv_report_view
+#, python-format
+msgid "Total to Pay"
+msgstr "Total a Pagar"
+
+#. module: nahuiik_report
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_search_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_compras_forecast_tree_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_search_view
+#: model:ir.ui.view,arch_db:nahuiik_report.libro_ventas_forecast_tree_view
+msgid "Treasury Forecast"
+msgstr "Treasury Forecast"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:78
+#, python-format
+msgid "Type"
+msgstr "Tipo"
+
+#. module: nahuiik_report
+#: code:addons/nahuiik_report/report/report_book_sale_xls.py:63
+#, python-format
+msgid "Ventas Exentas"
+msgstr "Ventas Exentas"
+
+#. module: nahuiik_report
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_compras_forecast_year
+#: model:ir.model.fields,field_description:nahuiik_report.field_libro_ventas_forecast_year
+msgid "Year"
+msgstr "Año"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_nahuiik_report_wizard_isv_report
+msgid "nahuiik_report.wizard_isv_report"
+msgstr "nahuiik_report.wizard_isv_report"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_report_nahuiik_report_isv_report_view
+msgid "report.nahuiik_report.isv_report_view"
+msgstr "report.nahuiik_report.isv_report_view"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_report_nahuiik_report_isv_report_xls_xlsx
+msgid "report.nahuiik_report.isv_report_xls.xlsx"
+msgstr "report.nahuiik_report.isv_report_xls.xlsx"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_report_nahuiik_report_report_compras_invoice
+msgid "report.nahuiik_report.report_compras_invoice"
+msgstr "report.nahuiik_report.report_compras_invoice"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_report_nahuiik_report_report_libro_compras_invoice_xls
+msgid "report.nahuiik_report.report_libro_compras_invoice_xls"
+msgstr "report.nahuiik_report.report_libro_compras_invoice_xls"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_report_nahuiik_report_report_libro_ventas_invoice_xls
+msgid "report.nahuiik_report.report_libro_ventas_invoice_xls"
+msgstr "report.nahuiik_report.report_libro_ventas_invoice_xls"
+
+#. module: nahuiik_report
+#: model:ir.model,name:nahuiik_report.model_report_nahuiik_report_report_ventas_invoice
+msgid "report.nahuiik_report.report_ventas_invoice"
+msgstr "report.nahuiik_report.report_ventas_invoice"
+

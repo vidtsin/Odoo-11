@@ -1,0 +1,18 @@
+<odoo>
+
+    <record model="ir.ui.view" id="account_invoice_libro_compras_view_inh">
+        <field name="name">account.invoice.libro.form.view.inh</field>
+        <field name="model">account.invoice</field>
+        <field name="inherit_id" ref="account.invoice_supplier_form"/>
+        <field name="arch" type="xml">
+            <field name="supplier_invoice_number" position="after">
+                <field name="cai_shot_compras"/>
+                <field name="excluir_compra"/>
+            </field>
+            <field name="currency_id" position="after">
+                <field name="is_importation" attrs="{'readonly':[('state','!=','draft')]}"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>

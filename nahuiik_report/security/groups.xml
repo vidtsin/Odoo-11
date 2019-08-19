@@ -1,0 +1,33 @@
+<odoo>
+    <data>
+        <record model="ir.module.category" id="module_category_nahuiik">
+            <field name="name">Permisos de Acceso Nahuiik</field>
+            <field name="description">Reportes</field>
+            <field name="sequence">4</field>
+        </record>
+
+        <record id="nahuiik_report.group_user" model="res.groups">
+            <field name="category_id" ref="module_category_nahuiik"/>
+            <field name="name">Libro de Ventas / Solo Lectura</field>
+        </record>
+
+        <record id="nahuiik_report.group_manager" model="res.groups">
+            <field name="category_id" ref="module_category_nahuiik"/>
+            <field name="name">Libro de Ventas / Manager</field>
+        </record>
+
+        <record id="nahuiik_report.group_user_compras" model="res.groups">
+            <field name="category_id" ref="module_category_nahuiik"/>
+            <field name="name">Libro de Compras / Solo Lectura</field>
+        </record>
+
+        <record id="nahuiik_report.group_manager_compras" model="res.groups">
+            <field name="category_id" ref="module_category_nahuiik"/>
+            <field name="name">Libro de Compras / Manager</field>
+        </record>
+
+
+    </data>
+</odoo>
+
+

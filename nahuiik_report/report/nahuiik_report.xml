@@ -1,0 +1,51 @@
+<odoo>
+    <report
+        id="report_nahuiik_compras"
+        model="libro.compras.forecast"
+        string="Libro de Compras"
+        report_type="qweb-pdf"
+        name="nahuiik_report.report_libro_compras_invoice_view"
+        file="nahuiik_report.report_libro_compras_invoice_view"
+    />
+    <report
+        id="report_nahuiik_ventas"
+        model="libro.ventas.forecast"
+        string="Libro de Ventas"
+        report_type="qweb-pdf"
+        name="nahuiik_report.report_libro_ventas_invoice_view"
+        file="nahuiik_report.report_libro_ventas_invoice_view"
+    />
+    <report
+        id="report_isv"
+        model="nahuiik_report.wizard_isv_report"
+        string="ISV Report"
+        report_type="qweb-pdf"
+        name="nahuiik_report.isv_report_view"
+        file="nahuiik_report.isv_report_view"
+        paperformat="base.paperformat_us"
+    />
+    <report
+        id = "report_nahuiik_compras_xls"
+        model ="libro.compras.forecast"
+        string="Libro de Compras XLS"
+        report_type = "xlsx"
+        name = "nahuiik_report.report_libro_compras_invoice_xls"
+        file = "report_libro_compras_xls"				
+        />
+    <report
+        id = "report_nahuiik_ventas_xls"
+        model ="libro.ventas.forecast"
+        string="Libro de Ventas XLS"
+        report_type = "xlsx"
+        name = "nahuiik_report.report_libro_ventas_invoice_xls"
+        file = "report_libro_ventas_xls"				
+    />
+    <report
+        id = "isv_report_xls"
+        model ="nahuiik_report.wizard_isv_report"
+        string="ISV Report XLS"
+        report_type = "xlsx"
+        name = "nahuiik_report.isv_report_xls.xlsx"
+        file = "nahuiik_report.isv_report_xls"				
+    />
+</odoo>

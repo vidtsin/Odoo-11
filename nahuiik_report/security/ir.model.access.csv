@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acees_model_libro_ventas_forecast_user,libro.ventas.forecast,model_libro_ventas_forecast,nahuiik_report.group_user,1,0,1,0
+acees_model_libro_ventas_forecast_manager,libro.ventas.forecast,model_libro_ventas_forecast,nahuiik_report.group_manager,1,1,1,1
+acees_model_libro_ventas_invoice_user,libro.ventas.invoice,model_libro_ventas_invoice,nahuiik_report.group_user,1,0,0,0
+acees_model_libro_ventas_invoice_manager,libro.ventas.invoice,model_libro_ventas_invoice,nahuiik_report.group_manager,1,1,1,1
+acces_model_libro_compras_forecast_user,libro.compras.forecast,model_libro_compras_forecast,nahuiik_report.group_user_compras,1,0,0,0
+acces_model_libro_compras_forecast_manager,libro.compras.forecast,model_libro_compras_forecast,nahuiik_report.group_manager_compras,1,1,1,1
+acces_model_libro_compras_invoice_user,libro.compras.invoice,model_libro_compras_invoice,nahuiik_report.group_user_compras,1,0,0,0
+acces_model_libro_compras_invoice_manager,libro.compras.invoice,model_libro_compras_invoice,nahuiik_report.group_manager_compras,1,1,1,1

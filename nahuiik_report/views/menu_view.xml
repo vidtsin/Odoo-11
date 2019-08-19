@@ -1,0 +1,32 @@
+<odoo>
+
+    <menuitem name="Nahuiik" id="menu_main_nahuiik" string="Nahuiik"
+              sequence="15" web_icon="nahuiik_report,static/description/NAHUIIK.png"/>
+    <menuitem name="Reportes" id="menu_nahuiik_reports" string="Reportes"
+              parent="menu_main_nahuiik" sequence="15"/>
+
+    <menuitem name="SAR" id="menu_nahuiik_sar" string="SAR"
+              parent="menu_main_nahuiik" sequence="15"/>
+
+    <menuitem name="CAI" id="menu_nahuiik_cai" string="CAI"
+              action="dei.dei_cai_action_id"
+              parent="menu_nahuiik_sar" sequence="30"/>
+
+</odoo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
