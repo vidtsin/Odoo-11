@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<template id="report_sales_receipt">
+<t t-call="report.html_container">
+
+<t t-foreach="docs" t-as="o">
+
+	<t t-if="o and 'company_id' in o">
+		<t t-set="company" t-value="o.company_id"></t>
+	</t>
+	<t t-if="not o or not 'company_id' in o">
+		<t t-set="company" t-value="res_company"></t>
+	</t>
+
+	<div class="header">
+            <div class="row">
+                <div class="col-xs-3">
+                    <img t-if="company.logo" t-att-src="'data:image/png;base64,%s' % company.logo" style="height: 80px;"/>
+                </div>
+                <div class="col-xs-9 text-right" style="margin-top:20px;" t-field="company.report_header"/>
+            </div>
+            <div>
+                <div class="col-xs-12">
+                    <div style="border-bottom: 1px solid black;"></div>
+                </div>
+            </div>
+            <div class="table table-condensed">
+                  <p>
+			<strong><span t-field="company.name"/></strong>
+			<br/>
+                	<span t-field="company.street"/>
+			<br/>
+			<span t-field="company.street2"/>
+			<br/>
+			<strong>RTN :</strong>
+                	<span t-field="company.company_registry"/>
+			<br/>
+			<strong>Tel:</strong>
+                	<span t-field="company.phone"/>
+           	  </p>
+            </div>
+        </div>
+
+	<div class="footer">
+	    <div class="col-xs-12">
+                <div style="border-bottom: 1px solid black;"></div>
+            </div>
+	    <div class="row text-center">
+		<p>
+		    Teléfono:<span t-field="company.phone"/>|
+		    Email:<span t-field="company.email"/>|
+		    Website:<span t-field="company.website"/>|
+		    RTN:<span t-field="company.company_registry"/>
+		</p>
+		<ul class="list-inline">
+		    <li>Página:</li>
+                    <li><span class="page"/></li>
+                    <li>/</li>
+                    <li><span class="topage"/></li>
+                </ul>
+	    </div>
+	</div>
+	
+        <div class="page">
+
+            <div class="row">
+                <div class="col-xs-5 col-xs-offset-7">
+		    <span> <strong>Cliente:</strong></span>
+                    <address t-field="o.partner_id"
+                        t-field-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": true}' />
+                    <span t-field="o.partner_id.vat"/>
+		    RTN : <span t-field="o.partner_id.rtn"> </span>		
+                </div>
+            </div>
+
+            <h3>
+                <span >Nota de Debito</span>
+                <span t-field="o.number"/>
+            </h3>
+
+	<t t-if="o.cai_shot">
+	<table width='100%'>
+		<tr>
+			<td width='70%'>
+			
+				CAI: 
+				<span t-field="o.cai_shot">    </span>
+				<br/>
+				Rango Autorizado: 
+				<span t-field="o.min_number_shot"> </span> - 
+				<span t-field="o.max_number_shot"> </span> | 
+				Fecha limite de emisión: 
+				<span t-field="o.cai_expires_shot"> </span> 		
+			</td>
+			<td width='30%'>	
+				<!--div class="col-xs-6 col-xs-offset-8"-->
+            			<strong>Fecha:</strong>
+                    		<h4><p t-field="o.date"/></h4>
+            			<!--/div-->
+			</td>
+		</tr>
+	</table>
+	</t>
+            <div class="row mt32 mb32">
+                <div class="col-xs-3" t-if="o.name">
+                    <strong>Descripción:</strong>
+                    <p t-field="o.name"/>
+                </div>
+                <div class="col-xs-3" t-if="o.partner_id.ref">
+                    <strong>Cliente:</strong>
+                    <p t-field="o.partner_id.ref"/>
+                </div>
+            </div>
+
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th>Cuenta</th>
+                        <th>Descripción</th>
+                        <th class="text-right">Importe</th>
+                    </tr>
+                </thead>
+                <tbody class="invoice_tbody">
+                    <tr t-foreach="o.line_cr_ids" t-as="l">
+			<td><span t-field="l.account_id"/></td>
+                        <td><span t-field="l.name"/></td>
+                        <td class="text-right">
+                            <span t-field="l.amount"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="row">
+                <div class="col-xs-4 pull-right">
+                    <table class="table table-condensed">
+                        <tr class="border-black">
+                            <td><strong>Sub-Total</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Impuesto</td>
+                            <td class="text-right">
+                                <span t-field="o.tax_id" t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
+                            </td>
+                        </tr>
+                        <tr class="border-black">
+                            <td><strong>Total</strong></td>
+                            <td class="text-right">
+                                 <span t-field="o.amount" t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <p t-if="o.comment">
+                <strong>Observaciones:</strong>
+                <span t-field="o.comment"/>
+            </p>
+            <p t-if="o.pay_now">
+                <strong>Términos de pago:</strong>
+                <span t-field="o.pay_now"/>
+            </p>
+	    <p t-if="o.amount_total_text">Son : <span t-field="o.amount_total_text"> </span> </p>
+
+        </div>
+
+<!--/t-->
+</t>
+</t>
+</template>
+
+<!--template id="report_sales_receipt">
+    <t t-call="report.html_container">
+        <t t-foreach="doc_ids" t-as="doc_id">
+            <t t-raw="translate_doc(doc_id, doc_model, 'partner_id.lang', 'account.report_invoice_document')"/>
+        </t>
+    </t>
+</template-->
+
+
+	<report
+    	id="dei_receipt_report_print"
+    	model="account.invoice"
+    	string="print sales receipt"
+   	 report_type="qweb-pdf"
+    	name="dei.report_sales_receipt"
+   	 file="dei.report_sales_receipt"
+        attachment="(object.state in ('finish'))"
+	/>
+
+
+        <record id="dei_receipt_report_print" model="ir.actions.report">
+            <field name="paperformat_id" ref="base.paperformat_us"/>
+        </record>
+
+
+</data>
+</openerp>
