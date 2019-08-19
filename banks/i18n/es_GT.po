@@ -1,0 +1,1622 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* banks
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e-20180428\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-08 12:05+0000\n"
+"PO-Revision-Date: 2019-02-08 12:05+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: banks
+#: code:addons/banks/models/payment_wizard.py:68
+#, python-format
+msgid "!! Amount must be greater than zero !!"
+msgstr "!! La cantidad debe ser mayor que cero !!"
+
+#. module: banks
+#: code:addons/banks/models/payment_wizard.py:16
+#, python-format
+msgid "!! No se pudo completar la transacción intente nuevamente!!"
+msgstr "!! No se pudo completar la transacción intente nuevamente!!"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_invoice_number
+msgid "# de Factura"
+msgstr "# de Factura"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:72
+#, python-format
+msgid "'Next Number to Use' must be greater than 'Minimal Value'."
+msgstr "‘El siguiente número a usar’ debe ser mayor que ‘Valor mínimo’."
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:74
+#, python-format
+msgid "'Next Number to Use' must be less than 'Max Value'."
+msgstr "‘El siguiente número para usar’ debe ser menor que ‘Valor máximo’."
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid ", EMITIDO EL"
+msgstr ", EMITIDO EL"
+
+#. module: banks
+#: code:addons/banks/models/payment_wizard.py:100
+#, python-format
+msgid ".No se puede registrar el pago, consulte el administrador del sistema!!"
+msgstr ".No se puede registrar el pago, consulte el administrador del sistema!!"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "0.00"
+msgstr "0.00"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<br/>Mario Matamoros"
+msgstr "<br/>Mario Matamoros"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>A FAVOR DE: </strong>***"
+msgstr "<strong>A FAVOR DE: </strong>***"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "<strong>Amount In Word:</strong>"
+msgstr "<strong>Amount In Word:</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>BANCO DEL QUE SE EMITE: </strong>"
+msgstr "<strong>BANCO DEL QUE SE EMITE: </strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>DESCRIPCION: </strong>"
+msgstr "<strong>DESCRIPCION: </strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>Debe</strong>"
+msgstr "<strong>Debe</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>Descripción</strong>"
+msgstr "<strong>Descripción</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "<strong>En Concepto de:</strong>"
+msgstr "<strong>En Concepto de:</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "<strong>Fecha:</strong>"
+msgstr "<strong>Fecha:</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>Haber</strong>"
+msgstr "<strong>Haber</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "<strong>La Suma de:</strong>"
+msgstr "<strong>La Suma de:</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "<strong>Monto:</strong>"
+msgstr "<strong>Monto:</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>NUMERO DE CUENTA: </strong>"
+msgstr "<strong>NUMERO DE CUENTA: </strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>Nombre de Cuenta</strong>"
+msgstr "<strong>Nombre de Cuenta</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "<strong>Número de Cuenta</strong>"
+msgstr "<strong>Número de Cuenta</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "<strong>Recibimos de:</strong>"
+msgstr "<strong>Recibimos de:</strong>"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "<strong>Recibo de Caja</strong>"
+msgstr "<strong>Recibo de Caja</strong>"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_journal_id_in
+msgid "A Banco"
+msgstr "A Banco"
+
+#. module: banks
+#: code:addons/banks/models/payment_wizard.py:100
+#, python-format
+msgid "Advertencia"
+msgstr "Advertencia"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_0account_journal_form_config
+msgid "Allow Multi-Sequence"
+msgstr "Permitir Multi-secuencia"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_amount_in_words
+#: model:ir.model.fields,field_description:banks.field_banks_debit_amount_in_words
+msgid "Amount"
+msgstr "Importe"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_amount_total_text
+#: model:ir.model.fields,field_description:banks.field_banks_debit_amount_total_text
+msgid "Amount Total"
+msgstr "Monto Total"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_es_anticipo
+msgid "Anticipo de Cliente"
+msgstr "Anticipo de Cliente"
+
+#. module: banks
+#: model:res.groups,name:banks.banks_anular_registros
+msgid "Anulación de registros"
+msgstr "Anulación de registros"
+
+#. module: banks
+#: selection:banks.check,state:0
+#: selection:banks.debit,state:0
+#: selection:banks.transferences,state:0
+msgid "Anulado"
+msgstr "Anulado"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_transferences_form_view
+#: model:ir.ui.view,arch_db:banks.check_form_view
+msgid "Anular Registro"
+msgstr "Anular Registro"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_move_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_move_id
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_move_id
+#: model:ir.ui.view,arch_db:banks.check_form_view
+msgid "Apunte Contable"
+msgstr "Apunte Contable"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_form_view
+msgid "Apuntes Conatbles"
+msgstr "Apuntes Conatbles"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.debit_form_view
+msgid "Apuntes Contables"
+msgstr "Apuntes Contables"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_move_id
+msgid "Asiento Contable"
+msgstr "Asiento Contable"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "Autorizado Por"
+msgstr "Autorizado Por"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "BORRADOR:"
+msgstr "BORRADOR:"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_journal_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_journal_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_journal_id
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+msgid "Banco"
+msgstr "Banco"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_journal_id
+msgid "Banco/Efectivo"
+msgstr "Banco/Efectivo"
+
+#. module: banks
+#: model:ir.ui.menu,name:banks.menu_banks
+msgid "Bancos"
+msgstr "Bancos"
+
+#. module: banks
+#: selection:vitt.banks.journal.settings,doc_type:0
+msgid "Banks transferences"
+msgstr "Transferencias bancarias"
+
+#. module: banks
+#: selection:banks.check,state:0
+#: selection:banks.debit,state:0
+#: selection:banks.payment.invoices.custom,state:0
+#: selection:banks.transferences,state:0
+msgid "Borrador"
+msgstr "Borrador"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "CHEQUE No."
+msgstr "CHEQUE No."
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_account_invoice_cai_proveedor
+msgid "Cai Proveedor"
+msgstr "CAI Proveedor"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.debit_form_view
+msgid "Cambiar a Borrador"
+msgstr "Cambiar a Borrador"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_journal_settings_view_form
+#: model:ir.ui.view,arch_db:banks.banks_journal_template_view_form
+#: model:ir.ui.view,arch_db:banks.view_invoice_supplier_payment_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: banks
+#: selection:banks.payment.invoices.custom,state:0
+msgid "Cancelado"
+msgstr "Cancelado"
+
+#. module: banks
+#: selection:banks.payment.line.custom,state:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: banks
+#: selection:ir.sequence,move_type:0
+msgid "Cash"
+msgstr "Cash"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_check_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_debit_id
+msgid "Check"
+msgstr "Cheque"
+
+#. module: banks
+#: selection:vitt.banks.journal.settings,doc_type:0
+msgid "Checks"
+msgstr "Cheques"
+
+#. module: banks
+#: selection:banks.check,doc_type:0
+#: selection:banks.invoice.payment.supplier,doc_type:0
+#: selection:banks.payment.invoices.custom,doc_type:0
+#: selection:banks.template,doc_type:0
+msgid "Cheque"
+msgstr "Cheque"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_cheque_anulado
+msgid "Cheque anulado"
+msgstr "Cheque anulado"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_sequence_id
+msgid "Chequera"
+msgstr "Chequera"
+
+#. module: banks
+#: selection:ir.sequence,move_type:0
+msgid "Cheques"
+msgstr "Cheques"
+
+#. module: banks
+#: model:res.groups,name:banks.banks_check_manager
+msgid "Cheques Usuario Avanzado "
+msgstr "Cheques Usuario Avanzado "
+
+#. module: banks
+#: model:res.groups,name:banks.banks_check_user
+msgid "Cheques Usuario Restringido"
+msgstr "Cheques Usuario Restringido"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_check
+#: model:ir.ui.menu,name:banks.management_check_menu
+#: model:ir.ui.view,arch_db:banks.banks_cheque_view_tree
+msgid "Cheques a Terceros"
+msgstr "Cheques Misceláneos"
+
+#. module: banks
+#: model:ir.actions.act_window,help:banks.action_deposit_management
+msgid "Click para crear primer registro."
+msgstr "Click para crear primer registro."
+
+#. module: banks
+#: model:ir.actions.act_window,help:banks.action_check
+#: model:ir.actions.act_window,help:banks.action_plantilla_bancaria
+#: model:ir.actions.act_window,help:banks.action_transferencia
+msgid "Click para crear un nuevo registro."
+msgstr "Click para crear un nuevo registro."
+
+#. module: banks
+#: model:ir.actions.act_window,help:banks.action_banks_trasferences
+msgid "Click para registrar nuevas transferencias."
+msgstr "Click para registrar nuevas transferencias."
+
+#. module: banks
+#: model:ir.actions.act_window,help:banks.action_credit_management
+#: model:ir.actions.act_window,help:banks.action_debit_management
+msgid "Click to record a new debit."
+msgstr "Haga clic para registrar un nuevo débito."
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_nombre_cliente
+msgid "Cliente"
+msgstr "Cliente"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: banks
+#: model:ir.actions.report,name:banks.banks_deposit_print
+msgid "Comprobante"
+msgstr "Comprobante"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "Copia: Contabilidad"
+msgstr "Copia: Contabilidad"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_wizard_crear_plantilla
+#: model:ir.ui.view,arch_db:banks.banks_journal_template_view_form
+msgid "Crear Plantilla"
+msgstr "Crear Plantilla"
+
+#. module: banks
+#: model:ir.actions.act_window,help:banks.action_banks_payment_proveedores
+msgid "Crear primer desposito de cliente"
+msgstr "Crear primer desposito de cliente"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_debit_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_template_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_create_uid
+#: model:ir.model.fields,field_description:banks.field_banks_wizard_template_create_uid
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_debit_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_template_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_create_date
+#: model:ir.model.fields,field_description:banks.field_banks_wizard_template_create_date
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: banks
+#: selection:vitt.banks.journal.settings,doc_type:0
+msgid "Credit"
+msgstr "Crédito"
+
+#. module: banks
+#: selection:banks.check.line,move_type:0
+#: selection:banks.debit,doc_type:0
+#: selection:banks.debit.line,move_type:0
+#: selection:banks.template,doc_type:0
+#: selection:banks.template.line,move_type:0
+msgid "Crédito"
+msgstr "Crédito"
+
+#. module: banks
+#: selection:ir.sequence,move_type:0
+msgid "Créditos"
+msgstr "Créditos"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_credit_management
+#: model:ir.ui.menu,name:banks.menu_management_credit
+msgid "Créditos Bancarios"
+msgstr "Créditos Bancarios"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_account_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_account_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_account_id
+msgid "Cuenta"
+msgstr "Cuenta"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_analytic_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_analytic_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_analytic_id
+msgid "Cuenta Analitica"
+msgstr "Cuenta Analitica"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_journal_id_out
+msgid "De Banco"
+msgstr "De Banco"
+
+#. module: banks
+#: selection:vitt.banks.journal.settings,doc_type:0
+msgid "Debit"
+msgstr "Debito"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_move_type
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_move_type
+msgid "Debit/Credit"
+msgstr "Debito/Credito"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_transferences_form_view
+#: model:ir.ui.view,arch_db:banks.check_form_view
+#: model:ir.ui.view,arch_db:banks.debit_form_view
+msgid "Debits"
+msgstr "Debitos"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_debit_view_tree
+msgid "Debits and Credits"
+msgstr "Debitos and Creditos"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_form_view
+#: model:ir.ui.view,arch_db:banks.debit_form_view
+msgid "Definir Plantilla"
+msgstr "Definir Plantilla"
+
+#. module: banks
+#: selection:vitt.banks.journal.settings,doc_type:0
+msgid "Deposit"
+msgstr "Deposito"
+
+#. module: banks
+#: selection:banks.debit,doc_type:0
+#: selection:banks.template,doc_type:0
+msgid "Depósito"
+msgstr "Depósito"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_deposit_management
+#: selection:ir.sequence,move_type:0
+#: model:ir.ui.menu,name:banks.menu_management_deposit
+msgid "Depósitos"
+msgstr "Depósitos"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_name
+#: model:ir.model.fields,field_description:banks.field_banks_check_memo
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_name
+#: model:ir.model.fields,field_description:banks.field_banks_debit_name
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_name
+#: model:ir.model.fields,field_description:banks.field_banks_template_memo
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_memo
+msgid "Descripción"
+msgstr "Descripción"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_form_view
+#: model:ir.ui.view,arch_db:banks.plantillas_banco_form_view
+msgid "Descripción de Cheque Emitido"
+msgstr "Descripción de Cheque Emitido"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_transferences_form_view
+msgid "Descripción de transferencia bancaria"
+msgstr "Descripción de transferencia bancaria"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_template_detalle_lines
+msgid "Detalle de Plantilla"
+msgstr "Detalle de Plantilla"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_form_view
+#: model:ir.ui.view,arch_db:banks.debit_form_view
+#: model:ir.ui.view,arch_db:banks.plantillas_banco_form_view
+msgid "Detalle de Transacción"
+msgstr "Detalle de Transacción"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_check_lines
+msgid "Detalle de cheques"
+msgstr "Detalle de cheques"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_debit_line
+msgid "Detalle de debito/credito"
+msgstr "Detalle de debito/credito"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_journal_id
+msgid "Diario"
+msgstr "Diario"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_difference
+#: model:ir.model.fields,field_description:banks.field_banks_debit_rest_credit
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_diferencia
+msgid "Diferencia"
+msgstr "Diferencia"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_vitt_padding
+msgid "Digits Number"
+msgstr "Número de dígitos"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_debit_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_template_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_display_name
+#: model:ir.model.fields,field_description:banks.field_banks_wizard_template_display_name
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_journal_settings_view_form
+msgid "Document Type"
+msgstr "Tipo de Documento"
+
+#. module: banks
+#: selection:banks.payment.line.custom,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: banks
+#: selection:banks.check.line,move_type:0
+#: selection:banks.debit,doc_type:0
+#: selection:banks.debit.line,move_type:0
+#: selection:banks.template,doc_type:0
+#: selection:banks.template.line,move_type:0
+msgid "Débito"
+msgstr "Débito"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_move_type
+msgid "Débito/Crédito"
+msgstr "Débito/Crédito"
+
+#. module: banks
+#: selection:ir.sequence,move_type:0
+msgid "Débitos"
+msgstr "Débitos"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_debit_management
+#: model:ir.ui.menu,name:banks.menu_management_debit
+msgid "Débitos Bancarios"
+msgstr "Débitos Bancarios"
+
+#. module: banks
+#: model:res.groups,name:banks.banks_debit_credit_manager
+msgid "Débitos y Créditos Avanzado"
+msgstr "Débitos y Créditos Avanzado"
+
+#. module: banks
+#: model:res.groups,name:banks.banks_debit_credit_user
+msgid "Débitos y Créditos Usuarios"
+msgstr "Débitos y Créditos Usuarios"
+
+#. module: banks
+#: model:ir.model.fields,help:banks.field_banks_debit_date
+msgid "Effective date for accounting entries"
+msgstr "Fecha efectiva para entradas contables."
+
+#. module: banks
+#: code:addons/banks/models/check.py:442
+#, python-format
+msgid "El banco no cuenta con configuraciones/parametros para registrar cheques de terceros"
+msgstr "El banco no cuenta con configuraciones/parametros para registrar cheques de terceros"
+
+#. module: banks
+#: code:addons/banks/models/banks_transferences.py:97
+#: code:addons/banks/models/debit.py:433
+#, python-format
+msgid "El banco no cuenta con configuraciones/parametros para registrar débitos bancarios"
+msgstr "El banco no cuenta con configuraciones/parametros para registrar débitos bancarios"
+
+#. module: banks
+#: code:addons/banks/models/account_payment.py:137
+#, python-format
+msgid "El monto debe de ser mayor que cero"
+msgstr "El monto debe de ser mayor que cero"
+
+#. module: banks
+#: code:addons/banks/models/account_payment.py:243
+#, python-format
+msgid "El monto ingresado es mayor que el saldo de la factura"
+msgstr "El monto ingresado es mayor que el saldo de la factura"
+
+#. module: banks
+#: code:addons/banks/models/banks_transferences.py:99
+#: code:addons/banks/models/check.py:446
+#: code:addons/banks/models/debit.py:437
+#, python-format
+msgid "El total debe de ser mayor que cero"
+msgstr "El total debe de ser mayor que cero"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "Elaborador Por"
+msgstr "Elaborador Por"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_company_id
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_partner_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_company_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_partner_id
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_company_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_company_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_partner_id
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_company_id
+msgid "Empresa"
+msgstr "Empresa"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_max_value
+msgid "End number checkbook"
+msgstr "Número de chequera final"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "Entregué Conforme"
+msgstr "Entregué Conforme"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_msg
+#: model:ir.model.fields,field_description:banks.field_banks_debit_msg
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_msg
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_msg
+msgid "Error de configuración"
+msgstr "Error de configuración"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_es_moneda_base
+#: model:ir.model.fields,field_description:banks.field_banks_debit_es_moneda_base
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_es_moneda_base
+#: model:ir.model.fields,field_description:banks.field_banks_template_es_moneda_base
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_es_moneda_base
+msgid "Es moneda base"
+msgstr "Es moneda base"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_form_view
+msgid "Esta seguro que quiere anular este cheque?"
+msgstr "Esta seguro que quiere anular este cheque?"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_transferences_form_view
+#: model:ir.ui.view,arch_db:banks.debit_form_view
+msgid "Esta seguro que quiere anular este registro?"
+msgstr "Esta seguro que quiere anular este registro?"
+
+#. module: banks
+#: code:addons/banks/models/account_payment.py:151
+#, python-format
+msgid "Esta tratando de pagar con monedas diferentes, favor verifique la moneda de pago sean igual que el de las facturas"
+msgstr "Esta tratando de pagar con monedas diferentes, favor verifique la moneda de pago sean igual que el de las facturas"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_state
+#: model:ir.model.fields,field_description:banks.field_banks_debit_state
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_state
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_state
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+msgid "Estado"
+msgstr "Estado"
+
+#. module: banks
+#: code:addons/banks/models/check.py:448
+#: code:addons/banks/models/debit.py:439
+#, python-format
+msgid "Existen diferencias entre el detalle y el total de la transacción a realizar"
+msgstr "Existen diferencias entre el detalle y el total de la transacción a realizar"
+
+#. module: banks
+#: code:addons/banks/models/account_payment.py:144
+#, python-format
+msgid "Existen diferencias, verifique el monto de las facturas"
+msgstr "Existen diferencias, verifique el monto de las facturas"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_invoice_ids
+msgid "Facturas"
+msgstr "Facturas"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_payment_invoices_custom_form_view
+msgid "Facturas de Clientes"
+msgstr "Facturas de Clientes"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_date
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_fecha
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_date
+msgid "Fecha"
+msgstr "Fecha"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_anulation_date
+msgid "Fecha de Anulación"
+msgstr "Fecha de Anulación"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_date
+msgid "Fecha de Cheque "
+msgstr "Fecha de Cheque "
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_date_invoice
+msgid "Fecha de factura"
+msgstr "Fecha de factura"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_date
+msgid "Fecha de registro"
+msgstr "Fecha de registro"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_date_due
+msgid "Fecha de vencimiento"
+msgstr "Fecha de vencimiento"
+
+#. module: banks
+#: model:ir.model.fields,help:banks.field_banks_payment_invoices_custom_effective_date
+msgid "Fecha del deposito del cheque"
+msgstr "Fecha del deposito del cheque"
+
+#. module: banks
+#: model:ir.model.fields,help:banks.field_banks_transferences_date
+msgid "Fecha efectia de transacción"
+msgstr "Fecha efectia de transacción"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_effective_date
+msgid "Fecha efectiva"
+msgstr "Fecha efectiva"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_journal_settings_view_form
+msgid "For example Check,ntransference, debit..."
+msgstr "For example Check,ntransference, debit..."
+
+#. module: banks
+#: model:ir.module.category,description:banks.module_category_banks
+#: model:ir.module.category,name:banks.module_category_banks
+msgid "Gestión de Bancos"
+msgstr "Gestión de Bancos"
+
+#. module: banks
+#: model:ir.ui.menu,name:banks.menu_banks_pagos
+msgid "Gestión de Pagos"
+msgstr "Gestión de Pagos"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_id
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_id
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_id
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_id
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_id
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_id
+#: model:ir.model.fields,field_description:banks.field_banks_wizard_template_id
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: banks
+#: model:ir.model,name:banks.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_invoice_id
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_new_sequence
+msgid "Is a new transaction"
+msgstr "Es una nueva transaccion"
+
+#. module: banks
+#: model:ir.model,name:banks.model_account_journal
+#: model:ir.model.fields,field_description:banks.field_ir_sequence_journal_id
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_journal_id
+msgid "Journal"
+msgstr "Diario"
+
+#. module: banks
+#: model:ir.model,name:banks.model_vitt_banks_journal_settings
+msgid "Journal Settings"
+msgstr "Configuraciones del diario"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:96
+#, python-format
+msgid "Journal settings failed."
+msgstr "La configuración del diario falló."
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_check_line___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_debit___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_template___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_template_line___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_transferences___last_update
+#: model:ir.model.fields,field_description:banks.field_banks_wizard_template___last_update
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_check_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_debit_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_template_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_write_uid
+#: model:ir.model.fields,field_description:banks.field_banks_wizard_template_write_uid
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_check_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_debit_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_template_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_write_date
+#: model:ir.model.fields,field_description:banks.field_banks_wizard_template_write_date
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_debit
+msgid "Management Debits"
+msgstr "Management Debits"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:70
+#, python-format
+msgid "Max Value must be greater than Minimal Value."
+msgstr "El valor máximo debe ser mayor que el valor mínimo."
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+msgid "Mes"
+msgstr "Mes"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_currency_id
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_currency_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_currency_id
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_currency_id
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_currency_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_currency_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_currency_id
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_currency_id
+msgid "Moneda"
+msgstr "Moneda"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_line_amount
+#: model:ir.model.fields,field_description:banks.field_banks_debit_line_amount
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_amount
+msgid "Monto"
+msgstr "Monto"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_amount
+msgid "Monto a Pagar"
+msgstr "Monto a Pagar"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_amount
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_monto_pago
+msgid "Monto a pagar"
+msgstr "Monto a pagar"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_msg
+msgid "Msg"
+msgstr "Msg"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_account_journal_multi_seq_banks
+msgid "Multi secuencias bancarias"
+msgstr "Multi secuencias bancarias"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_number_next
+msgid "Next Number to Use"
+msgstr "Siguiente número a usar"
+
+#. module: banks
+#: code:addons/banks/models/check.py:444
+#: code:addons/banks/models/debit.py:435
+#, python-format
+msgid "No existen detalles de movimientos a registrar"
+msgstr "No existen detalles de movimientos a registrar"
+
+#. module: banks
+#: code:addons/banks/models/account_payment.py:116
+#, python-format
+msgid "No existen facturas para este cliente"
+msgstr "No existen facturas para este cliente"
+
+#. module: banks
+#: code:addons/banks/models/account_payment.py:139
+#, python-format
+msgid "No existen facturas para registrar pagos"
+msgstr "No existen facturas para registrar pagos"
+
+#. module: banks
+#: code:addons/banks/models/banks_transferences.py:82
+#: code:addons/banks/models/check.py:389
+#: code:addons/banks/models/debit.py:69
+#, python-format
+msgid "No puede eliminar registros contabilizados"
+msgstr "No puede eliminar registros contabilizados"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_template_name
+msgid "Nombre de Plantilla"
+msgstr "Nombre de Plantilla"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_wizard_template_name
+msgid "Nombre de plantilla"
+msgstr "Nombre de plantilla"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_notes
+msgid "Notas"
+msgstr "Notas"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_payment_invoices_custom_form_view
+msgid "Notas Generales"
+msgstr "Notas Generales"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_payment_invoices_custom_form_view
+msgid "Notas Generales para el pago a realizar"
+msgstr "Notas Generales para el pago a realizar"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_number
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_name
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_name
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_number
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+msgid "Número"
+msgstr "Número"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_number_calc
+#: model:ir.model.fields,field_description:banks.field_banks_debit_number_calc
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_number_calc
+msgid "Número de Transacción"
+msgstr "Número de Transacción"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_number
+msgid "Número de cheque"
+msgstr "Número de cheque"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_account_invoice_numero_factura
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_number
+#: model:ir.model.fields,help:banks.field_account_invoice_numero_factura
+msgid "Número de factura"
+msgstr "Número de factura"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_payment_invoices_custom_form_view
+msgid "Obtener Facturas"
+msgstr "Obtener Facturas"
+
+#. module: banks
+#: selection:banks.payment.line.custom,state:0
+msgid "Open"
+msgstr "Abierta"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.deposit_print
+msgid "Original: Cliente"
+msgstr "Original: Cliente"
+
+#. module: banks
+#: selection:banks.invoice.payment.supplier,doc_type:0
+#: selection:banks.payment.invoices.custom,doc_type:0
+#: selection:ir.sequence,move_type:0
+msgid "Otro"
+msgstr "Otro"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:65
+#, python-format
+msgid "Padding must be greater than zero."
+msgstr "Padding must be greater than zero."
+
+#. module: banks
+#: selection:banks.payment.invoices.custom,state:0
+msgid "Pagado"
+msgstr "Pagado"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+msgid "Pagado a"
+msgstr "Pagado a"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_name
+#: model:ir.model.fields,field_description:banks.field_banks_template_pagar_a
+msgid "Pagar a"
+msgstr "Pagar a"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_pago_id
+msgid "Pago"
+msgstr "Pago"
+
+#. module: banks
+#: model:res.groups,name:banks.banks_supplier_payment_manager
+msgid "Pago a Proveedores Avanzado"
+msgstr "Pago a Proveedores Avanzado"
+
+#. module: banks
+#: model:res.groups,name:banks.banks_supplier_payment_user
+msgid "Pago a Proveedores Restringido"
+msgstr "Pago a Proveedores Restringido"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_invoice_supplier_payment_wizard
+msgid "Pago de Factura"
+msgstr "Pago de Factura"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_banks_payment_proveedores
+#: model:ir.actions.act_window,name:banks.action_pagar_factura
+#: model:ir.ui.menu,name:banks.action_payment_customer_new
+#: model:ir.ui.menu,name:banks.menu_banks_payment_proveedores
+msgid "Pago de Proveedores"
+msgstr "Pago de Proveedores"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_payment_invoices_custom_form_tree
+msgid "Pago de proveedores"
+msgstr "Pago de proveedores"
+
+#. module: banks
+#: model:ir.ui.menu,name:banks.menu_management_payment
+msgid "Pagos de Clientes"
+msgstr "Pagos de Clientes"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_payment_invoices_custom_form_view
+msgid "Pagos de clientes"
+msgstr "Pagos de clientes"
+
+#. module: banks
+#: selection:banks.payment.line.custom,state:0
+msgid "Paid"
+msgstr "Pagada"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_plantilla_id
+#: model:ir.model.fields,field_description:banks.field_banks_debit_plantilla_id
+#: model:ir.model.fields,field_description:banks.field_banks_template_line_template_id
+msgid "Plantilla"
+msgstr "Plantilla"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.plantillas_banco_form_view
+msgid "Plantilla de bancos"
+msgstr "Plantilla de bancos"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_plantilla_bancaria
+#: model:ir.ui.menu,name:banks.menu_plantillas_bancos
+msgid "Plantillas Bancarias"
+msgstr "Plantillas Bancarias"
+
+#. module: banks
+#: selection:banks.check,state:0
+msgid "Post-Fechado"
+msgstr "Post-Fechado"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_vitt_prefix
+msgid "Prefix"
+msgstr "Prefijo"
+
+#. module: banks
+#: selection:banks.payment.line.custom,state:0
+msgid "Pro-forma"
+msgstr "Pro-forma"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_partner_id
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_partner_id
+msgid "Proveedor"
+msgstr "Proveedor"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "Recibido Por"
+msgstr "Recibido Por"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_name
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+msgid "Referencia"
+msgstr "Referencia"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_ref
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_bank_reference
+msgid "Referencia de pago"
+msgstr "Referencia de pago"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_invoice_supplier_payment_wizard
+msgid "Registrar Pago"
+msgstr "Registrar Pago"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_payment_invoices_custom_form_view
+msgid "Registrar Pagos"
+msgstr "Registrar Pagos"
+
+#. module: banks
+#: selection:ir.sequence,move_type:0
+msgid "Retentions"
+msgstr "Retentions"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_form_view
+#: model:ir.ui.view,arch_db:banks.debit_form_view
+msgid "Romper conciliación"
+msgstr "Romper conciliación"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_residual
+msgid "Saldo de pendiente"
+msgstr "Saldo de pendiente"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_account_journal_secuencia_ids
+msgid "Secuencias"
+msgstr "Secuencias"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_journal_settings_view_form
+msgid "Select a Transaction..."
+msgstr "Seleccione una transacción …"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:57
+#, python-format
+msgid "Select a journal."
+msgstr "Seleccione un diario."
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_journal_settings_view_form
+msgid "Select a transaction type..."
+msgstr "Seleccione un tipo de transacción …"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_transferences_form_view
+msgid "Set To Draft"
+msgstr "Establecer en borrador"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:68
+#, python-format
+msgid "Set a minimal and max value."
+msgstr "Establecer un valor mínimo y máximo."
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_journal_settings_view_form
+msgid "Settings"
+msgstr "Ajustes"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_min_value
+msgid "Start number checkbook"
+msgstr "Chequera número de inicio"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_state
+msgid "Status"
+msgstr "Estado"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_currency_rate
+#: model:ir.model.fields,field_description:banks.field_banks_debit_currency_rate
+#: model:ir.model.fields,field_description:banks.field_banks_debit_rate
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_currency_rate
+#: model:ir.model.fields,field_description:banks.field_banks_template_currency_rate
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_currency_rate
+msgid "Tasa de Cambio"
+msgstr "Tasa de Cambio"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "Tegucigalpa"
+msgstr "Tegucigalpa"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:93
+#, python-format
+msgid "This transacion type already exists."
+msgstr "Este tipo de transacción ya existe."
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_doc_type
+msgid "Tipo"
+msgstr "Tipo"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_doc_type
+#: model:ir.model.fields,field_description:banks.field_banks_invoice_payment_supplier_doc_type
+#: model:ir.model.fields,field_description:banks.field_banks_payment_invoices_custom_doc_type
+#: model:ir.model.fields,field_description:banks.field_banks_template_doc_type
+#: model:ir.model.fields,field_description:banks.field_ir_sequence_move_type
+msgid "Tipo de Transacción"
+msgstr "Tipo de Transacción"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_check_total
+#: model:ir.model.fields,field_description:banks.field_banks_debit_total
+#: model:ir.model.fields,field_description:banks.field_banks_template_total
+#: model:ir.model.fields,field_description:banks.field_banks_transferences_total
+#: model:ir.ui.view,arch_db:banks.banks_payment_invoices_custom_form_view
+msgid "Total"
+msgstr "Total"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_total_creditos
+msgid "Total créditos"
+msgstr "Total créditos"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_payment_line_custom_amount_total
+msgid "Total de factura"
+msgstr "Total de factura"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_banks_debit_total_debitos
+msgid "Total débitos"
+msgstr "Total débitos"
+
+#. module: banks
+#: model:ir.ui.menu,name:banks.menu_banks_gestion
+#: model:ir.ui.view,arch_db:banks.view_banks_0account_journal_form_config
+msgid "Transacciones Bancarias"
+msgstr "Transacciones Bancarias"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_sequence_id
+msgid "Transaction"
+msgstr "Transacción"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_doc_type
+#: model:ir.ui.view,arch_db:banks.banks_journal_settings_view_form
+#: model:ir.ui.view,arch_db:banks.banks_journal_template_view_form
+msgid "Transaction Type"
+msgstr "Tipo de Transacción"
+
+#. module: banks
+#: model:ir.model.fields,field_description:banks.field_vitt_banks_journal_settings_sequence_name
+msgid "Transaction name"
+msgstr "Nombre de la transacción"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:77
+#, python-format
+msgid "Transaction name is empty."
+msgstr "El nombre de la transacción está vacío."
+
+#. module: banks
+#: selection:vitt.banks.journal.settings,doc_type:0
+msgid "Transference"
+msgstr "Transferencia"
+
+#. module: banks
+#: selection:banks.check,doc_type:0
+#: selection:banks.invoice.payment.supplier,doc_type:0
+#: selection:banks.payment.invoices.custom,doc_type:0
+#: selection:banks.template,doc_type:0
+msgid "Transferencia"
+msgstr "Transferencia"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_banks_trasferences
+msgid "Transferencia entre Bancos"
+msgstr "Transferencia entre Bancos"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_transferences_form_tree
+msgid "Transferencia entre bancos"
+msgstr "Transferencia entre bancos"
+
+#. module: banks
+#: selection:ir.sequence,move_type:0
+msgid "Transferencias"
+msgstr "Transferencias"
+
+#. module: banks
+#: model:ir.actions.act_window,name:banks.action_transferencia
+#: model:ir.ui.menu,name:banks.management_transferencia_menu
+msgid "Transferencias a Terceros"
+msgstr "Transferencias bancarias"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_transferences
+#: selection:ir.sequence,move_type:0
+#: model:ir.ui.menu,name:banks.menu_banks_transferences
+msgid "Transferencias entre Bancos"
+msgstr "Transferencias entre Bancos"
+
+#. module: banks
+#: selection:banks.check,state:0
+#: selection:banks.debit,state:0
+#: selection:banks.transferences,state:0
+msgid "Validado"
+msgstr "Validado"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_journal_template_view_form
+#: model:ir.ui.view,arch_db:banks.banks_transferences_form_view
+#: model:ir.ui.view,arch_db:banks.check_form_view
+#: model:ir.ui.view,arch_db:banks.debit_form_view
+msgid "Validar"
+msgstr "Validar"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_journal_settings_view_form
+msgid "Validate"
+msgstr "Validar"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_form_view
+msgid "Volver a borrador"
+msgstr "Volver a borrador"
+
+#. module: banks
+#: model:ir.actions.report,name:banks.banks_check_print
+msgid "Voucher"
+msgstr "Voucher"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:113
+#, python-format
+msgid "You need select a sequence."
+msgstr "Necesitas seleccionar una secuencia."
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_check
+msgid "banks.check"
+msgstr "banks.check"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_check_line
+msgid "banks.check.line"
+msgstr "banks.check.line"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_debit_line
+msgid "banks.debit.line"
+msgstr "banks.debit.line"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_invoice_payment_supplier
+msgid "banks.invoice.payment.supplier"
+msgstr "banks.invoice.payment.supplier"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_payment_invoices_custom
+msgid "banks.payment.invoices.custom"
+msgstr "banks.payment.invoices.custom"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_payment_line_custom
+msgid "banks.payment.line.custom"
+msgstr "banks.payment.line.custom"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_template
+msgid "banks.template"
+msgstr "banks.template"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_template_line
+msgid "banks.template.line"
+msgstr "banks.template.line"
+
+#. module: banks
+#: model:ir.model,name:banks.model_banks_wizard_template
+msgid "banks.wizard.template"
+msgstr "banks.wizard.template"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.check_print
+msgid "de"
+msgstr "de"
+
+#. module: banks
+#: model:ir.model,name:banks.model_ir_sequence
+msgid "ir.sequence"
+msgstr "ir.sequence"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_invoice_supplier_payment_wizard
+msgid "or"
+msgstr "o"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+msgid "search"
+msgstr "Buscar"
+
+#. module: banks
+#: code:addons/banks/wizard/journal_settings.py:88
+#: code:addons/banks/wizard/journal_settings.py:110
+#, python-format
+msgid "the range the numbers for the check book already exists, the number you can use is ."
+msgstr "the range the numbers for the check book already exists, the number you can use is ."
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.banks_cheque_view_tree
+#: model:ir.ui.view,arch_db:banks.banks_debit_view_tree
+#: model:ir.ui.view,arch_db:banks.banks_template_view_tree
+msgid "total"
+msgstr "Total"
+
+
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "Today"
+msgstr "Hoy"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "Last weeks"
+msgstr "Ultimas semanas"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "Last 30 Days"
+msgstr "Últimos 30 días"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "Last 7 Days"
+msgstr "Los últimos 7 días"
+
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "Bank Debits Weekly"
+msgstr "Débitos bancarios semanales"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "Bank Debits Year"
+msgstr "Año de débitos bancarios"
+
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "This weeks"
+msgstr "De esta semana"
+
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "Last weeks"
+msgstr "Ultimas semanas"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "Yesterday"
+msgstr "Ayer"
+
+#. module: banks
+#: model:ir.ui.view,arch_db:banks.view_banks_check_search
+#: model:ir.ui.view,arch_db:banks.view_banks_debit_search
+msgid "This Year"
+msgstr "Este año"
+

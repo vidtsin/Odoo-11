@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>     
+	<report
+		id="banks_deposit_print"
+		model="banks.debit"
+		string="Comprobante"
+		report_type="qweb-pdf"
+		name="banks.deposit_print"
+		file="banks.deposit_print"
+	/>
+
+</data>
+</odoo>

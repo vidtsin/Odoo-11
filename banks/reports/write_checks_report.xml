@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+ 
+	<report
+    	id="banks_write_checks_print"
+    	model="account.payment"
+    	string="Print Voucher"
+   	 report_type="qweb-pdf"
+    	name="banks.write_checks_print"
+   	 file="banks.write_checks_print"
+        
+/>
+
+<record id="banks_write_checks_print" model="ir.actions.report">
+            <field name="paperformat_id" ref="banks.write_checks_paper_format"/>
+</record> 
+
+</odoo>
